@@ -1,11 +1,10 @@
 " Vim indent file
-" Language:	    LessCSS
-" Maintainer:	Leonard Ehrenfried <leonard.ehrenfried@web.de>
-" Last Change:	2011 Sep 26
+" Language:	    Razor
+" Maintainer:	Adam Clark <adamclerk@gmail.com>
+" Last Change:	2013 Jan 24
 
 if exists("b:did_indent")
   finish
 endif
-
 runtime! indent/html.vim
-
+runtime! indent/javscript.vim
