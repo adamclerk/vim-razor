@@ -5,7 +5,9 @@
 " Last Change:  2011 Sep 30
 
 " Only do this when not done yet for this buffer
-:UltiSnipsAddFiletypes razor.html
+if exists(':UltiSnipsAddFiletypes')
+  :UltiSnipsAddFiletypes razor.html
+endif
 
 if exists("b:did_ftplugin")
   finish
