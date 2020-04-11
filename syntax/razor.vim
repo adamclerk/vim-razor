@@ -49,4 +49,3 @@ hi def link rUsing Preproc
 hi def link rNamespace Type
 
 let b:current_syntax = "razor"
-
